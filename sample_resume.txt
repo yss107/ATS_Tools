@@ -1,0 +1,51 @@
+John Doe
+Email: john.doe@email.com
+Phone: (555) 123-4567
+Location: New York, NY
+
+PROFESSIONAL SUMMARY
+Experienced software engineer with 5+ years of expertise in Python, JavaScript, and cloud technologies. Proven track record in developing scalable web applications and leading cross-functional teams. Strong background in machine learning and data analysis.
+
+TECHNICAL SKILLS
+• Programming Languages: Python, JavaScript, Java, SQL
+• Frameworks: React, Angular, Django, Flask, Node.js
+• Databases: PostgreSQL, MongoDB, MySQL
+• Cloud Platforms: AWS, Azure, Docker, Kubernetes
+• Tools: Git, GitHub, CI/CD, Jenkins
+• Machine Learning: TensorFlow, PyTorch, Pandas, NumPy, Scikit-learn
+
+PROFESSIONAL EXPERIENCE
+
+Senior Software Engineer | Tech Solutions Inc. | 2021 - Present
+• Led development of microservices architecture serving 1M+ users
+• Implemented machine learning algorithms for data analysis and prediction
+• Collaborated with cross-functional teams using Agile methodologies
+• Mentored junior developers and conducted code reviews
+• Improved system performance by 40% through optimization
+
+Software Engineer | StartupCorp | 2019 - 2021
+• Developed responsive web applications using React and Node.js
+• Designed and implemented RESTful APIs with Python and Django
+• Worked with PostgreSQL databases and optimized queries
+• Participated in sprint planning and daily standups
+• Contributed to CI/CD pipeline improvements
+
+Junior Developer | WebDev Agency | 2018 - 2019
+• Built client websites using HTML, CSS, JavaScript
+• Assisted in database design and management
+• Participated in testing and debugging processes
+• Learned version control with Git and GitHub
+
+EDUCATION
+Bachelor of Science in Computer Science | State University | 2018
+• Relevant Coursework: Data Structures, Algorithms, Database Systems
+• GPA: 3.7/4.0
+
+CERTIFICATIONS
+• AWS Certified Developer Associate (2022)
+• Scrum Master Certified (2021)
+
+PROJECTS
+• E-commerce Platform: Built full-stack application with React and Django
+• Data Analysis Tool: Created Python-based analytics dashboard
+• Mobile App: Developed React Native application for task management
