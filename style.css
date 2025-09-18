@@ -1,0 +1,286 @@
+/* Classic Resume Stylesheet */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: 'Times New Roman', Times, serif;
+    line-height: 1.6;
+    color: #333;
+    background-color: #f5f5f5;
+    padding: 20px;
+}
+
+.resume-container {
+    max-width: 8.5in;
+    margin: 0 auto;
+    background-color: white;
+    padding: 0.75in;
+    box-shadow: 0 0 20px rgba(0, 0, 0, 0.1);
+    min-height: 11in;
+}
+
+/* Header Styles */
+.header {
+    border-bottom: 2px solid #333;
+    padding-bottom: 20px;
+    margin-bottom: 30px;
+    text-align: center;
+}
+
+.name {
+    font-size: 32px;
+    font-weight: bold;
+    margin-bottom: 15px;
+    letter-spacing: 1px;
+    text-transform: uppercase;
+}
+
+.contact-info {
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    gap: 20px;
+    font-size: 14px;
+}
+
+.contact-item {
+    white-space: nowrap;
+}
+
+/* Section Styles */
+.section {
+    margin-bottom: 25px;
+}
+
+.section-title {
+    font-size: 18px;
+    font-weight: bold;
+    text-transform: uppercase;
+    letter-spacing: 0.5px;
+    border-bottom: 1px solid #333;
+    padding-bottom: 5px;
+    margin-bottom: 15px;
+    color: #2c3e50;
+}
+
+.section-content {
+    padding-left: 10px;
+}
+
+/* Work Experience Styles */
+.job {
+    margin-bottom: 20px;
+    page-break-inside: avoid;
+}
+
+.job-header {
+    display: flex;
+    justify-content: space-between;
+    align-items: baseline;
+    flex-wrap: wrap;
+    margin-bottom: 5px;
+}
+
+.job-title {
+    font-size: 16px;
+    font-weight: bold;
+    margin-right: 15px;
+}
+
+.company {
+    font-style: italic;
+    font-size: 14px;
+    margin-right: auto;
+    margin-left: 15px;
+}
+
+.date {
+    font-size: 14px;
+    font-weight: bold;
+    white-space: nowrap;
+}
+
+.job-location {
+    font-size: 13px;
+    color: #666;
+    margin-bottom: 8px;
+}
+
+.job-duties {
+    margin-left: 20px;
+    margin-bottom: 10px;
+}
+
+.job-duties li {
+    margin-bottom: 3px;
+    font-size: 14px;
+}
+
+/* Education Styles */
+.education {
+    margin-bottom: 15px;
+}
+
+.education-header {
+    display: flex;
+    justify-content: space-between;
+    align-items: baseline;
+    flex-wrap: wrap;
+    margin-bottom: 5px;
+}
+
+.degree {
+    font-size: 16px;
+    font-weight: bold;
+    margin-right: 15px;
+}
+
+.school {
+    font-style: italic;
+    font-size: 14px;
+    margin-right: auto;
+    margin-left: 15px;
+}
+
+.education-location {
+    font-size: 13px;
+    color: #666;
+    margin-bottom: 5px;
+}
+
+.education-details {
+    font-size: 14px;
+    margin-left: 10px;
+}
+
+.education-details p {
+    margin-bottom: 3px;
+}
+
+/* Skills Styles */
+.skills-grid {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
+    gap: 15px;
+}
+
+.skill-category h4 {
+    font-size: 14px;
+    font-weight: bold;
+    margin-bottom: 5px;
+    color: #2c3e50;
+}
+
+.skill-category p {
+    font-size: 13px;
+    line-height: 1.4;
+}
+
+/* Certifications Styles */
+.certifications {
+    list-style-type: none;
+    margin-left: 10px;
+}
+
+.certifications li {
+    font-size: 14px;
+    margin-bottom: 5px;
+    position: relative;
+    padding-left: 15px;
+}
+
+.certifications li:before {
+    content: "•";
+    font-weight: bold;
+    position: absolute;
+    left: 0;
+}
+
+/* Professional Summary Styles */
+.section-content p {
+    font-size: 14px;
+    text-align: justify;
+    line-height: 1.5;
+}
+
+/* Print Styles */
+@media print {
+    body {
+        background-color: white;
+        padding: 0;
+    }
+    
+    .resume-container {
+        box-shadow: none;
+        margin: 0;
+        padding: 0.5in;
+        max-width: none;
+    }
+    
+    .section {
+        page-break-inside: avoid;
+    }
+    
+    .job {
+        page-break-inside: avoid;
+    }
+}
+
+/* Responsive Design */
+@media (max-width: 768px) {
+    body {
+        padding: 10px;
+    }
+    
+    .resume-container {
+        padding: 20px;
+    }
+    
+    .contact-info {
+        flex-direction: column;
+        gap: 5px;
+    }
+    
+    .job-header {
+        flex-direction: column;
+        align-items: flex-start;
+    }
+    
+    .company {
+        margin-left: 0;
+    }
+    
+    .education-header {
+        flex-direction: column;
+        align-items: flex-start;
+    }
+    
+    .skills-grid {
+        grid-template-columns: 1fr;
+    }
+    
+    .name {
+        font-size: 24px;
+    }
+}
+
+@media (max-width: 480px) {
+    .resume-container {
+        padding: 15px;
+    }
+    
+    .name {
+        font-size: 20px;
+    }
+    
+    .section-title {
+        font-size: 16px;
+    }
+    
+    .job-title, .degree {
+        font-size: 14px;
+    }
+}
